@@ -1,0 +1,164 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+}
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+header{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+}
+.main ul{
+    display: flex;
+    margin-left: 30px;
+}
+.main li{
+    font-family: 'Teko', sans-serif;
+    color:white;
+    list-style: none;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+.main a{
+    text-decoration: none;
+}
+.main a:hover{
+    background-color: gray;
+}
+.red{
+    font-family: 'Teko', sans-serif;
+    height: 60px;
+    color: white;
+    background-color: rgb(119, 5, 43);
+    border: solid;
+    border-color: rgb(119, 5, 43);
+    margin-left: 45px;
+    padding-top: 15px;
+}
+.main-img img{
+    max-width: 100%;
+}
+.main-img{
+    position:relative;
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+.main-img h2{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-size: 50px;
+}
+.main-img h3{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 30px;
+}
+.intro{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.intro h4{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.intro h2{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+}
+.intro p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+}
+.intro hr{
+    width: 60%;
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.intro button{
+    background-color: goldenrod;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border-color: goldenrod;
+    margin-bottom: 50px;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+}
+.letter{
+    color: rgb(148, 115, 30);
+}
+.tele{
+    color: rgb(148, 115, 30);
+    margin-left: 20px;
+}
+.new{
+    font-family: 'Jura', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.video1{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.video1 img{
+    width: 350px;
+    height: 200px;
+    margin-right: 50px;
+}
+.video2{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.video1 p{
+    color: goldenrod;
+}
+.long{
+    width: 400px;
+    height: 500px;
+    margin-right: 50px;
+}
+.short{
+    width: 350px;
+    height: 350px;
+    margin-right: 50px
+}
